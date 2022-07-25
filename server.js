@@ -8,6 +8,9 @@ const posts = require("./routes/api/posts")
 const app = express()
 connectDB()
 
+//Middleware
+app.use(express.json({ extended: false }))
+
 app.get("/", (req, res) => res.send("API IS RUNNING"))
 
 //Routes
