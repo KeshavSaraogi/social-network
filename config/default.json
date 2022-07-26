@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://keshav-saraogi:Proman%40123@socialnetworkdb.mwrrq.mongodb.net/?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "c99fb801b9bf155365ea",
+  "githubSecret": "b2c401674368efe8f6b3122ba9f714cd8d006de6"
 }
